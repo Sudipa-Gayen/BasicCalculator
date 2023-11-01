@@ -1,0 +1,200 @@
+.cal{
+    margin-top: 1pc;
+    margin-left: 40pc;
+    margin-right: 40pc;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: rgb(75, 69, 69);
+}
+.nav{
+    padding-top: 30px;
+    padding-left: 18pc;
+}
+
+.nav img{
+    height: 40px;
+    cursor: pointer;
+    color: white;
+}
+.container input{
+    width: 90px;
+    padding: 20px 30px;
+    margin-top: 2pc;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 30%;
+    cursor: pointer;
+    font-size: 1.2pc;
+    display: inline-block;
+}
+.con5{
+    margin-bottom: 1.5pc;
+}
+#calculation{
+    margin-top: 5pc;
+    margin-bottom: 2pc;
+    border-style: none;
+    text-align: right;
+    font-size: 3pc;
+    width: 60%;
+    border: hidden;
+    background-color: rgb(75, 69, 69);
+    color: white;
+}
+#result{
+    border-style: none;
+    text-align: right;
+    font-size: 3pc;
+    width: 60%;
+    border: hidden;
+    background-color: rgb(75, 69, 69);
+    color: white;
+}
+hr{
+    width: 60%;
+    border: 0.5px solid black;
+}
+#div,#mul,#sub,#plus,#equal{
+    background-color: rgb(237, 195, 24);
+    color: white;
+    font-size: 1.8pc;
+}
+#one,#two,#three,#four,#five,#six,#sev,#eight,#nine,#zero,#dot,#percent{
+    background-color: rgb(47, 41, 41);
+    color: white;
+    font-size: 1.8pc;
+}
+#mix,#delete,#ac{
+    background-color: rgb(146, 140, 140);
+    color: black;
+    font-size: 1.8pc;
+}
+body{
+    background-color: beige;
+}
+#setting{
+    display: none;
+    background-color: rgb(99, 96, 96);
+    text-align: left;
+    border: 1px solid white;
+    font-size: 1.2pc;
+    border-radius: 20px;
+    position: absolute;
+}
+#setting ul{
+    display: flex;
+    text-align: left;
+}
+#setting img{
+    padding-top: 16px;
+    padding-left: 5px;
+}
+#setting h3{
+    padding-left: 5px;
+}
+#setting ul h4{
+    text-align: left;
+}
+.hidden{
+    display: none;
+
+}
+.img_container{
+    display: flex;
+}
+#div{
+    background-image: url("divide.png");
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+@media screen and (max-width:600px) {
+    .cal{
+        margin-top: 0.5px;
+        margin-left: 0.5px;
+        margin-right: 0.5px;
+        border: 2px solid black;
+        border-radius: 5px;
+        background-color: rgb(75, 69, 69);
+    }
+    .nav{
+        padding-top: 10px;
+        padding-left: 10pc;
+    }
+    .nav img{
+        height: 20px;
+        cursor: pointer;
+        color: white;
+    }
+    .container input{
+        width: 40px;
+        padding: 15px 28px;
+        margin-top: 20px;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 0.5pc;
+        display: inline-block;
+    }
+    #calculation{
+        margin-top: 3pc;
+        margin-bottom: 20px;
+        border-style: none;
+        text-align: right;
+        font-size: 1.5pc;
+        width: 80%;
+        border: hidden;
+        background-color: rgb(75, 69, 69);
+        color: white;
+    }
+    #result{
+        border-style: none;
+        text-align: right;
+        font-size: 1.5pc;
+        width: 80%;
+        border: hidden;
+        background-color: rgb(75, 69, 69);
+        color: white;
+    }
+    hr{
+        width: 80%;
+        border: 0.1px solid black;
+    }
+    #div,#mul,#sub,#plus,#equal{
+        background-color: rgb(237, 195, 24);
+        color: white;
+        font-size: 1pc;
+    }
+    #one,#two,#three,#four,#five,#six,#sev,#eight,#nine,#zero,#dot,#percent{
+        background-color: rgb(47, 41, 41);
+        color: white;
+        font-size: 1pc;
+    }
+    #mix,#delete,#ac{
+        background-color: rgb(146, 140, 140);
+        color: black;
+        font-size: 1pc;
+    }
+    #setting{
+        display: none;
+        background-color: rgb(99, 96, 96);
+        width: 99%;
+        text-align: left;
+        border: 1px solid white;
+        font-size: 1pc;
+        border-radius: 5px;
+    }
+    #setting img{
+        padding-top: 20px;
+        padding-left: 5px;
+
+    }
+    #setting ul h4{
+        text-align: left;
+        font-size: 1pc;
+    }
+    .img_container{
+        height: 70px;
+    }
+}
